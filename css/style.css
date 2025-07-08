@@ -1,0 +1,47 @@
+
+/* style.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+input:focus, button:focus, a:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Ring biru */
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+footer {
+    font-size: 0.875rem;
+    color: #6B7280; /* Tailwind gray-500 */
+}
+
+h1, h2 {
+    letter-spacing: -0.5px;
+}
+
+form input {
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card hover (jika diperlukan) */
+.card-hover:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Tombol transisi umum */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
